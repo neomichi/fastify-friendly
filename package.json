@@ -1,0 +1,7 @@
+{
+  "name": "fastify-ts-pg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nikolay <tneomichi@gmail.com>",
+  "license": "MIT"
+}
