@@ -3,5 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "nikolay <tneomichi@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node ./src/main.ts"
+  },
+  "dependencies": {
+    "fastify": "^3.19.2",
+    "fastify-routes": "^3.1.0",
+    "fastify-static": "^4.2.2",
+    "http2": "^3.3.7",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "@types/node": "^16.4.9",  
+    "typescript": "^4.3.5"
+    
+  }
 }

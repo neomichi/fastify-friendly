@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",     
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "noImplicitAny": false,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "sourceMap": false,
+        "strict": true,
+        "outDir": "./dist/"
+   
+
+    },
+    "include": ["src/**/*.ts","public/assets/ts/*.ts"],
+    "exclude": ["node_modules/**/*"]
+    
+    
+
+}
